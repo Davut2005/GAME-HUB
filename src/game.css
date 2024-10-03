@@ -1,0 +1,167 @@
+.imageGenre {
+    position: relative;
+    height: 100%;
+    width: 50px;
+    overflow: hidden;
+    background-color: rgb(48, 46, 46);
+}
+
+.imageGenre img {
+    background-color: rgb(48, 46, 46);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.logo {
+    margin-right: 5px;
+}
+.gamePlatformIcon {
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 120px;
+}
+
+.PlatformFilterGrey{
+    background-color: rgb(48, 46, 46);
+}
+.platformFilterWhite{
+    background-color: rgb(214, 206, 206);
+}
+
+.centeredPar p{
+    width: 150px;
+}
+
+.genreList {
+    margin-top: 10px;
+    margin-left: 8px;
+    width: 100%;
+    height: 50px;
+    border: 1px black;
+}
+.gameIconList {
+    margin-top: 5px;
+    margin-left: 4px;
+    width: 100px;
+    height: 20px;
+    border: 1px black;
+}
+
+.bodyBlack {
+    background-color: rgb(17, 16, 16);
+    color: white;
+}
+.bodyWhite{
+    background-color: whitesmoke;
+    color: rgb(17, 16, 16);
+}
+.rounded {
+    border-radius: 70px;
+    
+}
+.colors {
+    background-color: aqua;
+}
+
+.games {
+    height: 280px;
+    width: 290px;
+    margin: 10px;
+}
+.games div img {
+    height: 180px;
+    width: 290px;
+}
+.onlyGameImage div img {
+    height: 250px;
+    width: 100%;
+}
+.onlyGameImage{
+    width: 40%;
+    height: 250px;
+}
+.onlyGameImage div {
+    margin-top: 20px;
+    height: 250px;
+    width: 100%;
+}
+.onlyGameInfo{
+    width: 50%;
+    margin-right: 145px;
+}
+.onlyGameInfo div {
+    margin-bottom: 15px;
+}
+.onlyGameContainer{
+    position: absolute;
+    margin-left: 30px;
+}
+.GenrePlatfGamesContainer{
+    position: relative;
+    width: 100%;
+}
+.date{
+    margin-right: 30px;
+    margin-top: 10px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: rgb(207, 204, 204);
+    color: rgb(49, 46, 46);
+    width: 100px;
+}
+.date p {
+    width: 90px;
+}
+
+.gamesColorGrey {
+    background-color: rgb(44, 42, 42);
+}
+.gamesColorWhite {
+    background-color: whitesmoke;
+}
+
+.GamesContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.platformFilter {
+    margin: 20px;
+    width: 100px;
+    border-radius: 40px;
+}
+.platformList {
+    color: white;
+    margin: 5px;
+}
+.gamesPart {
+    margin-left: 40px;
+}
+.gameName {
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.gameNameBtn2{
+    background-color: red
+}
+.topofGameName {
+    margin-right: 8px;
+    margin-top: 8px;
+}
+.metacritic p {
+    margin: 0;
+    color: rgb(3, 51, 3);
+}
+.metacritic {
+    align-items: center;
+    height: 20px;
+    width: 25px;
+    border-radius: 5px;
+    background-color: rgba(184, 206, 152, 0.664);
+}
+.orderBy {
+    margin-left: 15px;
+}
